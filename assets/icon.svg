@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Copywren app icon: a wren perched on a stack of clipboard cards. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#52D1C2"/>
+      <stop offset="1" stop-color="#2A64B8"/>
+    </linearGradient>
+    <linearGradient id="feathers" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#A86A3E"/>
+      <stop offset="1" stop-color="#70401F"/>
+    </linearGradient>
+    <clipPath id="body-clip">
+      <ellipse cx="566" cy="424" rx="114" ry="78"/>
+    </clipPath>
+    <filter id="tile-shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0C1E4A" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)" filter="url(#tile-shadow)"/>
+
+  <!-- Clipboard history: three stacked cards. -->
+  <g filter="url(#card-shadow)">
+    <rect x="262" y="500" width="490" height="330" rx="46" fill="#FFFFFF" opacity="0.42" transform="rotate(-11 507 665)"/>
+    <rect x="262" y="500" width="490" height="330" rx="46" fill="#FFFFFF" opacity="0.70" transform="rotate(-5 507 665)"/>
+    <rect x="262" y="500" width="490" height="330" rx="46" fill="#FFFFFF"/>
+  </g>
+  <g fill="#D3DBE7">
+    <rect x="314" y="590" width="330" height="34" rx="17"/>
+    <rect x="314" y="652" width="386" height="34" rx="17"/>
+    <rect x="314" y="714" width="250" height="34" rx="17"/>
+  </g>
+
+  <!-- The wren. -->
+  <g>
+    <!-- cocked tail with bars -->
+    <path d="M470 446 C444 396 424 340 420 296 C434 286 458 288 468 300 C484 350 506 398 528 430 Z" fill="url(#feathers)"/>
+    <g stroke="#5A3218" stroke-width="7" stroke-linecap="round" opacity="0.7">
+      <path d="M432 318 L462 312"/>
+      <path d="M440 346 L474 340"/>
+      <path d="M452 374 L486 368"/>
+    </g>
+    <!-- legs -->
+    <g stroke="#3B2416" stroke-width="10" stroke-linecap="round">
+      <path d="M552 486 L544 506"/>
+      <path d="M594 486 L602 506"/>
+    </g>
+    <!-- body and head -->
+    <ellipse cx="566" cy="424" rx="114" ry="78" fill="url(#feathers)"/>
+    <circle cx="652" cy="356" r="60" fill="url(#feathers)"/>
+    <!-- pale belly -->
+    <ellipse cx="610" cy="470" rx="96" ry="52" fill="#E7C29A" clip-path="url(#body-clip)"/>
+    <!-- wing with bars -->
+    <path d="M476 410 C514 368 598 366 640 408 C604 444 528 452 476 410 Z" fill="#62381C"/>
+    <g stroke="#8E5A33" stroke-width="6" stroke-linecap="round">
+      <path d="M520 402 L540 424"/>
+      <path d="M556 394 L576 420"/>
+      <path d="M592 396 L610 418"/>
+    </g>
+    <!-- beak, brow, eye -->
+    <path d="M704 344 Q746 350 786 368 Q746 372 706 376 Z" fill="#3B2416"/>
+    <path d="M614 330 Q658 312 704 330" fill="none" stroke="#F5DFC2" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="668" cy="350" r="13" fill="#1A1410"/>
+    <circle cx="672" cy="345" r="4.5" fill="#FFFFFF"/>
+  </g>
+</svg>

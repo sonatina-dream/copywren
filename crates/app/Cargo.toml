@@ -1,0 +1,33 @@
+[package]
+name = "copywren"
+description = "A clipboard manager for macOS, built with GPUI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "copywren"
+path = "src/main.rs"
+
+[dependencies]
+copywren-core.workspace = true
+copywren-macos.workspace = true
+
+anyhow.workspace = true
+dirs.workspace = true
+log.workspace = true
+
+gpui = "0.2.2"
+global-hotkey = "0.8"
+image = { workspace = true, optional = true }
+raw-window-handle = "0.6"
+smol = "2"
+
+[features]
+# Records the documentation screenshots and video (see scripts/record-demo.sh).
+demo = ["dep:image"]
+
+[dev-dependencies]
+gpui = { version = "0.2.2", features = ["test-support"] }
+copywren-core.workspace = true
+tempfile.workspace = true

@@ -1,0 +1,16 @@
+[package]
+name = "copywren-macos"
+description = "AppKit, CoreGraphics and Accessibility bindings used by Copywren"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+copywren-core.workspace = true
+log.workspace = true
+
+# Same versions gpui 0.2.2 pins, so nothing is compiled twice.
+cocoa = "=0.26.0"
+core-foundation = "=0.10.0"
+core-graphics = "0.24"
+objc = "0.2.7"

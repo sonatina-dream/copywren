@@ -1,0 +1,7 @@
+target/
+.DS_Store
+/dist/
+# Private reverse-engineering notes; not for publication.
+/research/
+# Local tool configuration.
+/.opencode/

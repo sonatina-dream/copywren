@@ -1,0 +1,11 @@
+[package]
+name = "icon-render"
+description = "Rasterizes Copywren's SVG icons (dev tool, not shipped)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+# Same version gpui already builds.
+resvg = "0.45"

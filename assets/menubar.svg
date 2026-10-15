@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Copywren menu bar glyph (template image: only the alpha channel matters). -->
+  <defs>
+    <mask id="eye">
+      <rect width="100" height="100" fill="#FFFFFF"/>
+      <circle cx="73" cy="38" r="3.6" fill="#000000"/>
+    </mask>
+  </defs>
+  <g fill="#000000" mask="url(#eye)">
+    <path d="M30 56 C22 42 17 28 17 16 C21 12 27 13 30 17 C33 30 38 42 45 51 Z"/>
+    <ellipse cx="50" cy="58" rx="27" ry="19"/>
+    <circle cx="70" cy="40" r="15"/>
+    <path d="M82 35 Q90 37 98 42 Q90 43 83 45 Z"/>
+  </g>
+  <g stroke="#000000" stroke-width="4.5" stroke-linecap="round">
+    <path d="M45 75 L43 82"/>
+    <path d="M57 75 L59 82"/>
+  </g>
+  <rect x="12" y="83" width="76" height="8" rx="4" fill="#000000"/>
+</svg>
