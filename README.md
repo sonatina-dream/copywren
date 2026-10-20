@@ -150,6 +150,12 @@ There's no sync between devices. The search field doesn't support input methods 
 characters, such as dead keys or pinyin. The ⌘V that Copywren sends uses the ANSI position of the V
 key. The popup is always dark.
 
+## Support
+
+If this app is useful to you, you can buy me a beer. Thank you! 🍺
+
+[![Buy me a beer](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&emoji=%F0%9F%8D%BA&slug=sonatina_dream&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/sonatina_dream)
+
 ## License
 
 [MIT](LICENSE)
